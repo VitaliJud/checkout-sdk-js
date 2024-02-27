@@ -387,7 +387,7 @@ console.log(state.data.getOrder());
 
 Your UI should react to changes to the checkout state. When there is a change, you should present the latest information to the customer. You can do that by subscribing to the checkout state.
 
-The subscriber gets triggered every time there is a change in the state. If the change affects your view, you should re-render it in order to reflect the latest update. The subscriber provides a state object which you can use to get specific checkout information. It also provides meta information such as loading statuses, error details etc...
+The subscriber gets triggered every time there is a change in the state. If the change affects your view, you should re-render it in order to reflect the latest update. The subscriber provides a state object which you can use to get specific checkout information. It also provides meta information such as loading statuses, error details etc.
 
 ```js
 service.subscribe(state => {
